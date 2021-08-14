@@ -1,0 +1,57 @@
+.disabled-color {
+  color: #52575c;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.secondary-color {
+  color: #136223;
+}
+
+* {
+  color: #21243d;
+}
+
+header {
+  .container {
+    padding: 12rem 0;
+    p {
+      text-align: justify;
+    }
+  }
+}
+
+#content {
+  background-color: #edf7fa;
+  h5 {
+    @extend .secondary-color;
+  }
+  li {
+    @extend .disabled-color;
+  }
+}
+
+#project {
+  h5 {
+    @extend .secondary-color;
+  }
+  h3 {
+    @extend .bold-text;
+  }
+  img {
+    object-fit: cover;
+  }
+  .year {
+    span {
+      @extend .bold-text;
+      text-align: center;
+      color: white;
+      background-color: #142850;
+    }
+  }
+  .project-type {
+    @extend .disabled-color;
+  }
+}

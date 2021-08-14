@@ -1,0 +1,39 @@
+.disabled-color, #content li, #project .project-type {
+  color: #52575c;
+}
+
+.bold-text, #project h3, #project .year span {
+  font-weight: bold;
+}
+
+.secondary-color, #content h5, #project h5 {
+  color: #136223;
+}
+
+* {
+  color: #21243d;
+}
+
+header .container {
+  padding: 12rem 0;
+}
+
+header .container p {
+  text-align: justify;
+}
+
+#content {
+  background-color: #edf7fa;
+}
+
+#project img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#project .year span {
+  text-align: center;
+  color: white;
+  background-color: #142850;
+}
+/*# sourceMappingURL=style.css.map */
